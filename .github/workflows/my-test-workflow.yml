@@ -3,6 +3,8 @@ name: My Test Workflow
 on:
 workflow_dispatch;
 push:
+schedule:
+-cron: '* * * * *'
 
 jobs: 
   test:
